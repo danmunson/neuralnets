@@ -12,3 +12,4 @@ dependencies:
   - pytorch
   - cudatoolkit=10.2
   - numba
+  - torchvision
