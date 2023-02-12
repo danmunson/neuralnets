@@ -1,0 +1,14 @@
+name: neuralnets
+channels:
+  - anaconda
+  - pytorch
+  - defaults
+dependencies:
+  - jupyter
+  - numpy
+  - pip
+  - scipy
+  - ipykernel
+  - pytorch
+  - cudatoolkit=10.2
+  - numba
