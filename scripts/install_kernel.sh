@@ -1,1 +1,1 @@
-python -m ipykernel install --user --name=neuralnets
+python -m ipykernel install --user --name=nns
