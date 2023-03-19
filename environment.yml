@@ -1,17 +1,14 @@
 name: nns
 channels:
   - anaconda
-    #- pytorch
-    #- defaults
 dependencies:
   - jupyter
   - numpy
   - pip
   - scipy
   - ipykernel
-    #- pytorch::pytorch
-    #- cudatoolkit=10.2
   - numba
-    #- pytorch::torchvision
-    #- pytorch::torchaudio
-    #- pytorch::pytorch-cuda=11.7
+  - pandas
+  - pip:
+    - scikit-learn
+      #- jax[cuda] ## need to use "pip install "jax[cuda11_cudnn82]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html" instead
