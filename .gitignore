@@ -2,3 +2,4 @@
 .ghtoken
 data/
 **/*.pt
+scripts/
